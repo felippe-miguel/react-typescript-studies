@@ -1,13 +1,11 @@
 import Banner from "./components/banner";
-import Link from "./components/Link";
+import Header from "./components/Header";
 
 function App() {
   return (
     <>
+      <Header />
       <Banner src="./images/Banner.png" alt="Banner principal da página" />
-      <Link href="/" target="_blank">
-        Ir para Alura
-      </Link>
     </>
   );
 }
