@@ -2,7 +2,7 @@ import styles from "./MovieCard.module.css";
 import Tag from "../Tag";
 import type { Categoria, Censura } from "../Tag";
 
-interface MovieCardProps {
+export interface MovieCardProps {
   src: string;
   alt: string;
   titulo: string;
