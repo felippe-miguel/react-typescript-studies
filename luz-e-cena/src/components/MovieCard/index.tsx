@@ -1,8 +1,8 @@
-import styles from "./CardMovie.module.css";
+import styles from "./MovieCard.module.css";
 import Tag from "../Tag";
 import type { Categoria, Censura } from "../Tag";
 
-interface CardMovieProps {
+interface MovieCardProps {
   src: string;
   alt: string;
   titulo: string;
@@ -12,7 +12,7 @@ interface CardMovieProps {
   censura: Censura;
 }
 
-const CardMovie = (props: CardMovieProps) => {
+const MovieCard = (props: MovieCardProps) => {
   const { src, alt, titulo, genero, duracao, categoria, censura } = props;
 
   return (
@@ -35,4 +35,4 @@ const CardMovie = (props: CardMovieProps) => {
   );
 };
 
-export default CardMovie;
+export default MovieCard;
