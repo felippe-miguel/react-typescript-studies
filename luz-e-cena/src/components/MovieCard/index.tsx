@@ -1,16 +1,6 @@
 import styles from "./MovieCard.module.css";
 import Tag from "../Tag";
-import type { Categoria, Censura } from "../Tag";
-
-export interface MovieCardProps {
-  src: string;
-  alt: string;
-  titulo: string;
-  genero: string;
-  duracao: string;
-  categoria: Categoria;
-  censura: Censura;
-}
+import type { MovieCardProps } from "../../types";
 
 const MovieCard = (props: MovieCardProps) => {
   const { src, alt, titulo, genero, duracao, categoria, censura } = props;

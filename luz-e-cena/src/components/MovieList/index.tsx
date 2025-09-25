@@ -1,5 +1,5 @@
 import styles from "./MovieList.module.css";
-import type { MovieCardProps } from "../MovieCard";
+import type { MovieCardProps } from "../../types";
 import MovieCard from "../MovieCard";
 
 interface MovieListProps {
